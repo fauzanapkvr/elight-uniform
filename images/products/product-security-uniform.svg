@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0066CC" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#pBg)"/>
+  
+  <ellipse cx="400" cy="560" rx="280" ry="80" fill="rgba(0,102,204,0.08)"/>
+  <circle cx="400" cy="380" r="240" fill="#0066CC" opacity="0.06"/>
+  
+  <circle cx="400" cy="380" r="260" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="400" cy="380" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <g transform="translate(540, 45)">
+    <rect width="210" height="34" rx="17" fill="#0066CC" fill-opacity="0.2" stroke="#0066CC" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">RIP-STOP DURABLE</text>
+  </g>
+
+  <g transform="translate(50, 50)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0066CC">SECURITY & GUARD</text>
+  </g>
+
+  <g transform="translate(200, 140)" filter="url(#pGlow)">
+    
+  <path d="M50 30 L110 70 L290 70 L350 30 L380 120 L350 430 L50 430 L20 120 Z" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <rect x="40" y="40" width="70" height="24" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <rect x="290" y="40" width="70" height="24" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <line x1="60" y1="45" x2="60" y2="59" stroke="#E63946" stroke-width="3"/>
+  <line x1="310" y1="45" x2="310" y2="59" stroke="#E63946" stroke-width="3"/>
+  <path d="M100 130 L120 120 L140 130 L135 155 L120 165 L105 155 Z" fill="#F59E0B" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="80" y="170" width="65" height="70" rx="3" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+  <rect x="255" y="170" width="65" height="70" rx="3" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+  <circle cx="200" cy="130" r="4" fill="#F59E0B"/>
+  <circle cx="200" cy="180" r="4" fill="#F59E0B"/>
+  <circle cx="200" cy="230" r="4" fill="#F59E0B"/>
+  <circle cx="200" cy="280" r="4" fill="#F59E0B"/>
+
+  </g>
+
+  <g transform="translate(60, 680)">
+    <rect width="680" height="70" rx="10" fill="#182234" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="41" font-family="'Poppins', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Tactical Security Uniform</text>
+    <text x="400" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Reinforced Seams | Badge Holder | 240 GSM</text>
+  </g>
+</svg>

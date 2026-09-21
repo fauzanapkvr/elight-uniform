@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#8B5CF6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#pBg)"/>
+  
+  <ellipse cx="400" cy="560" rx="280" ry="80" fill="rgba(0,102,204,0.08)"/>
+  <circle cx="400" cy="380" r="240" fill="#8B5CF6" opacity="0.06"/>
+  
+  <circle cx="400" cy="380" r="260" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="400" cy="380" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <g transform="translate(540, 45)">
+    <rect width="210" height="34" rx="17" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">PREMIUM WOOL BLEND</text>
+  </g>
+
+  <g transform="translate(50, 50)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#8B5CF6">HOSPITALITY</text>
+  </g>
+
+  <g transform="translate(200, 140)" filter="url(#pGlow)">
+    
+  <path d="M50 20 L130 60 L270 60 L350 20 L380 120 L350 440 L50 440 L20 120 Z" fill="#1E1B2E" stroke="#4C1D95" stroke-width="2"/>
+  <polygon points="130,60 170,220 200,80" fill="#2E1065"/>
+  <polygon points="270,60 230,220 200,80" fill="#2E1065"/>
+  <line x1="130" y1="60" x2="170" y2="220" stroke="#8B5CF6" stroke-width="2.5"/>
+  <line x1="270" y1="60" x2="230" y2="220" stroke="#8B5CF6" stroke-width="2.5"/>
+  <polygon points="180,100 200,160 220,100" fill="#FFFFFF"/>
+  <polygon points="195,120 200,200 205,120" fill="#E63946"/>
+  <circle cx="200" cy="270" r="5" fill="#F59E0B"/>
+  <circle cx="200" cy="330" r="5" fill="#F59E0B"/>
+
+  </g>
+
+  <g transform="translate(60, 680)">
+    <rect width="680" height="70" rx="10" fill="#182234" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="41" font-family="'Poppins', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Hotel Concierge Suit</text>
+    <text x="400" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Crease-Resistant | Tailored Fit | 280 GSM</text>
+  </g>
+</svg>

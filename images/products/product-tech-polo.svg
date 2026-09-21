@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC" />
+      <stop offset="100%" stop-color="#004C99" />
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0066CC" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#pBg)"/>
+  
+  <ellipse cx="400" cy="560" rx="280" ry="80" fill="rgba(0,102,204,0.08)"/>
+  <circle cx="400" cy="380" r="240" fill="#0066CC" opacity="0.06"/>
+  
+  <circle cx="400" cy="380" r="260" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="400" cy="380" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <g transform="translate(540, 45)">
+    <rect width="210" height="34" rx="17" fill="#0066CC" fill-opacity="0.2" stroke="#0066CC" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">DRY-FIT BREATHABLE</text>
+  </g>
+
+  <g transform="translate(50, 50)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0066CC">CORPORATE CASUAL</text>
+  </g>
+
+  <g transform="translate(200, 140)" filter="url(#pGlow)">
+    
+  <path d="M60 30 L120 70 L280 70 L340 30 L380 120 L340 430 L60 430 L20 120 Z" fill="#0066CC" stroke="#004C99" stroke-width="2"/>
+  <path d="M120 70 L170 120 L200 80 L230 120 L280 70" fill="#003D7A" stroke="#002952" stroke-width="2"/>
+  <path d="M130 75 L165 110" stroke="#E63946" stroke-width="3"/>
+  <path d="M270 75 L235 110" stroke="#E63946" stroke-width="3"/>
+  <rect x="185" y="80" width="30" height="100" fill="#003D7A"/>
+  <circle cx="200" cy="105" r="4" fill="#FFFFFF"/>
+  <circle cx="200" cy="135" r="4" fill="#FFFFFF"/>
+  <circle cx="200" cy="165" r="4" fill="#FFFFFF"/>
+  <circle cx="100" cy="140" r="14" fill="#004C99" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M96 135 L104 135 L104 145 L96 145 Z" fill="#E63946"/>
+
+  </g>
+
+  <g transform="translate(60, 680)">
+    <rect width="680" height="70" rx="10" fill="#182234" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="41" font-family="'Poppins', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Performance Tech Polo</text>
+    <text x="400" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">100% Poly-Pique | Odor Resistant | 210 GSM</text>
+  </g>
+</svg>

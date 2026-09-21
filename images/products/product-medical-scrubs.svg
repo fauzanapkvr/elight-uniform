@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0D9488" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#pBg)"/>
+  
+  <ellipse cx="400" cy="560" rx="280" ry="80" fill="rgba(0,102,204,0.08)"/>
+  <circle cx="400" cy="380" r="240" fill="#0D9488" opacity="0.06"/>
+  
+  <circle cx="400" cy="380" r="260" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="400" cy="380" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <g transform="translate(540, 45)">
+    <rect width="210" height="34" rx="17" fill="#0D9488" fill-opacity="0.2" stroke="#0D9488" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">SILVER-ION ANTIMICROBIAL</text>
+  </g>
+
+  <g transform="translate(50, 50)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0D9488">HEALTHCARE</text>
+  </g>
+
+  <g transform="translate(200, 140)" filter="url(#pGlow)">
+    
+  <path d="M50 40 L120 80 L280 80 L350 40 L380 130 L350 440 L50 440 L20 130 Z" fill="#0D9488" stroke="#0F766E" stroke-width="2"/>
+  <polygon points="140,80 200,170 260,80" fill="#115E59"/>
+  <path d="M140 80 L200 170 L260 80" stroke="#2DD4BF" stroke-width="3" fill="none"/>
+  <rect x="30" y="150" width="25" height="50" rx="2" fill="#115E59"/>
+  <rect x="75" y="180" width="70" height="75" rx="4" fill="#0F766E"/>
+  <rect x="105" y="195" width="10" height="30" fill="#FFFFFF"/>
+  <rect x="95" y="205" width="30" height="10" fill="#FFFFFF"/>
+
+  </g>
+
+  <g transform="translate(60, 680)">
+    <rect width="680" height="70" rx="10" fill="#182234" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="41" font-family="'Poppins', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Antimicrobial Medical Scrubs</text>
+    <text x="400" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Fluid Resistant | 4-Way Stretch | 180 GSM</text>
+  </g>
+</svg>

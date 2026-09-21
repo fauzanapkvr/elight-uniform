@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC" />
+      <stop offset="100%" stop-color="#2B8CFF" />
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0066CC" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#pBg)"/>
+  
+  <ellipse cx="400" cy="560" rx="280" ry="80" fill="rgba(0,102,204,0.08)"/>
+  <circle cx="400" cy="380" r="240" fill="#0066CC" opacity="0.06"/>
+  
+  <circle cx="400" cy="380" r="260" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="400" cy="380" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <g transform="translate(540, 45)">
+    <rect width="210" height="34" rx="17" fill="#0066CC" fill-opacity="0.2" stroke="#0066CC" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">100% EGYPTIAN COTTON</text>
+  </g>
+
+  <g transform="translate(50, 50)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0066CC">CORPORATE</text>
+  </g>
+
+  <g transform="translate(200, 140)" filter="url(#pGlow)">
+    
+  <path d="M50 30 L110 70 L290 70 L350 30 L380 120 L350 430 L50 430 L20 120 Z" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="2"/>
+  <polygon points="120,70 200,140 280,70" fill="#F8FAFC"/>
+  <path d="M120 70 L170 120 L200 80 L230 120 L280 70" fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+  <rect x="185" y="80" width="30" height="350" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="200" cy="130" r="4" fill="#0066CC"/>
+  <circle cx="200" cy="180" r="4" fill="#0066CC"/>
+  <circle cx="200" cy="230" r="4" fill="#0066CC"/>
+  <circle cx="200" cy="280" r="4" fill="#0066CC"/>
+  <circle cx="200" cy="330" r="4" fill="#0066CC"/>
+  <circle cx="200" cy="380" r="4" fill="#0066CC"/>
+  <path d="M80 160 L140 160 L140 230 L110 245 L80 230 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <path d="M100 185 L120 185" stroke="#E63946" stroke-width="2"/>
+
+  </g>
+
+  <g transform="translate(60, 680)">
+    <rect width="680" height="70" rx="10" fill="#182234" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="41" font-family="'Poppins', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Executive Oxford Shirt</text>
+    <text x="400" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Easy-Iron | Anti-Wrinkle | 160 GSM</text>
+  </g>
+</svg>

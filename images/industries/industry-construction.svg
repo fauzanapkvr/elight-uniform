@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="iBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="iGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#iBg)"/>
+  <circle cx="700" cy="100" r="300" fill="url(#iGlow)"/>
+  <path d="M 0 500 L 800 500" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <path d="M 0 540 L 800 540" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <circle cx="400" cy="240" r="140" fill="none" stroke="#F59E0B" stroke-opacity="0.2" stroke-width="2"/>
+  <circle cx="400" cy="240" r="100" fill="#F59E0B" fill-opacity="0.1"/>
+
+  <g transform="translate(340, 180)">
+    <path d="M30 70 C30 40 50 30 60 30 C70 30 90 40 90 70 Z" fill="#F59E0B"/><rect x="20" y="70" width="80" height="12" rx="4" fill="#F59E0B"/><rect x="52" y="30" width="16" height="40" fill="#E63946"/>
+  </g>
+
+  <text x="400" y="440" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Construction & Site</text>
+  <text x="400" y="480" text-anchor="middle" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#94A3B8">High-Visibility ANSI/ISEA Vests & Safety Apparel</text>
+  <line x1="360" y1="510" x2="440" y2="510" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+</svg>

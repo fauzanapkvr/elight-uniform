@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glowCircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+
+  <!-- High-tech decorative circles and lighting -->
+  <circle cx="1450" cy="540" r="450" fill="url(#glowCircle)"/>
+  <circle cx="1450" cy="540" r="320" fill="none" stroke="#E63946" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="10 15"/>
+  <circle cx="1450" cy="540" r="260" fill="none" stroke="#E63946" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Technical grid lines -->
+  <line x1="900" y1="180" x2="1800" y2="180" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="900" y1="900" x2="1800" y2="900" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="1050" y1="100" x2="1050" y2="980" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="1800" y1="100" x2="1800" y2="980" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Technical badge overlay -->
+  <g transform="translate(1120, 240)">
+    <rect width="200" height="36" rx="6" fill="#E63946" fill-opacity="0.15" stroke="#E63946" stroke-opacity="0.4"/>
+    <text x="100" y="23" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">FLAME RESISTANT FR</text>
+  </g>
+
+  <!-- Large Stylized Apparel / Uniform Silhouette or Graphic -->
+  <g transform="translate(1250, 360)">
+    
+  <path d="M120 30 L160 70 L320 70 L360 30 L400 120 L370 470 L110 470 L80 120 Z" fill="#1E293B" stroke="#F59E0B" stroke-width="4"/>
+  <rect x="98" y="220" width="284" height="24" fill="#EAB308"/>
+  <rect x="98" y="226" width="284" height="12" fill="#FEF08A"/>
+  <rect x="98" y="270" width="284" height="24" fill="#EAB308"/>
+  <rect x="98" y="276" width="284" height="12" fill="#FEF08A"/>
+  <line x1="240" y1="70" x2="240" y2="470" stroke="#94A3B8" stroke-width="5" stroke-dasharray="6 3"/>
+  <rect x="130" y="120" width="60" height="70" rx="4" fill="#0F172A" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="290" y="120" width="60" height="70" rx="4" fill="#0F172A" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M160 145 Q150 165 160 175 Q170 165 160 145" fill="#E63946"/>
+
+  </g>
+
+  <!-- Metric badges in right corner -->
+  <g transform="translate(1520, 680)">
+    <rect width="240" height="90" rx="12" fill="#162238" fill-opacity="0.7" stroke="rgba(255,255,255,0.1)"/>
+    <text x="24" y="38" font-family="'Poppins', sans-serif" font-size="24" font-weight="800" fill="#E63946">ISO 9001</text>
+    <text x="24" y="65" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Certified Factory Production</text>
+  </g>
+
+  <g transform="translate(1250, 780)">
+    <rect width="250" height="85" rx="12" fill="#162238" fill-opacity="0.7" stroke="rgba(255,255,255,0.1)"/>
+    <text x="24" y="36" font-family="'Poppins', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">100% TAILORED</text>
+    <text x="24" y="62" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Ergonomic Fit &amp; Durability</text>
+  </g>
+
+  <!-- Watermark / Title decoration -->
+  <text x="100" y="1020" font-family="'Poppins', sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="rgba(255,255,255,0.2)">ELITE UNIFORMS • INDUSTRIAL &amp; CORPORATE APPAREL</text>
+</svg>
