@@ -10,11 +10,11 @@
   
   <!-- Text: ELIGHT UNIFORMS -->
   <text x="74" y="35" font-family="'Poppins', 'Inter', sans-serif" font-size="23" font-weight="800" letter-spacing="1.5" fill="#FFFFFF">ELIGHT</text>
-  <text x="166" y="35" font-family="'Poppins', 'Inter', sans-serif" font-size="23" font-weight="800" letter-spacing="1.5" fill="#2B8CFF">UNIFORMS</text>
+  <text x="166" y="35" font-family="'Poppins', 'Inter', sans-serif" font-size="23" font-weight="800" letter-spacing="1.5" fill="#E63946">UNIFORMS</text>
   
   <!-- Subtitle -->
   <text x="75" y="50" font-family="'Inter', sans-serif" font-size="8" font-weight="600" letter-spacing="2.2" fill="#94A3B8">MANUFACTURING &amp; TAILORING • GCC</text>
   
-  <!-- Red accent stitch line -->
-  <line x1="75" y1="56" x2="295" y2="56" stroke="#E63946" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <!-- Blue accent stitch line -->
+  <line x1="75" y1="56" x2="295" y2="56" stroke="#2B8CFF" stroke-width="1.5" stroke-dasharray="4 2"/>
 </svg>

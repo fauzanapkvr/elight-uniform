@@ -38,10 +38,10 @@
 
 @keyframes pulseGlow {
   0%, 100% {
-    box-shadow: 0 0 15px rgba(0, 102, 204, 0.25), 0 0 30px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 0 15px rgba(200, 16, 46, 0.25), 0 0 30px rgba(200, 16, 46, 0.1);
   }
   50% {
-    box-shadow: 0 0 25px rgba(0, 102, 204, 0.5), 0 0 50px rgba(0, 102, 204, 0.25);
+    box-shadow: 0 0 25px rgba(200, 16, 46, 0.5), 0 0 50px rgba(200, 16, 46, 0.25);
   }
 }
 
@@ -191,8 +191,8 @@
 
 .hover-lift:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px -15px rgba(0, 102, 204, 0.18);
-  border-color: rgba(0, 102, 204, 0.4) !important;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.18);
+  border-color: rgba(200, 16, 46, 0.4) !important;
 }
 
 /* Lightbox & Modal Transition */
